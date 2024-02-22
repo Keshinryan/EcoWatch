@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.User.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/judul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Berita Terkini"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/hal_berita"
+                    android:layout_width="115dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="24dp"
+                    android:backgroundTint="#7EBDEF"
+                    android:elevation="10dp"
+                    android:text="Lebih banyak"
+                    android:textSize="11sp" />
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/HomeBeritarecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edukasi"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="24dp"
+                android:text="Edukasi"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/hal_edukasi"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="24dp"
+                android:text="Lebih banyak"
+                android:backgroundTint="#7EBDEF"
+                android:textSize="11sp"
+                android:elevation="10dp"/>
+        </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/HomeEdukasiRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"/>
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

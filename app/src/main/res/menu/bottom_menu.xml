@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bottom_berita"
+        android:icon="@drawable/ic_news"
+        android:title="Berita" />
+
+    <item
+        android:id="@+id/bottom_edukasi"
+        android:icon="@drawable/ic_book"
+        android:title="Edukasi" />
+
+    <item
+        android:id="@+id/bottom_prediksi"
+        android:icon="@drawable/ic_predict"
+        android:title="Prediksi" />
+
+    <item
+        android:id="@+id/bottom_settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings" />
+
+
+
+</menu>
