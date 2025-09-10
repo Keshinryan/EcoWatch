@@ -67,9 +67,12 @@ The system also includes an integrated **Berita & Edukasi** section where admins
 ```
 RainfallPredictionApp/
 │── app/
-│   ├── java/com/example/rainfallprediction/
+│   ├── java/com/example/Ecowatch/
 │   │   ├── adapters/          # RecyclerView Adapters
-│   │   └──  fragment/          # Fragment page of the mobile
+│   │   └── fragment/          # Fragment page of the mobile
+│   └── AdminActitiy.kt        # Activity for Admin
+│   └── MainActitiy.kt         # Main Activity
+│   └── SplashActitiy.kt       # Splash Loding Screen Activity
 │   └── res/                   # Layouts, Drawables, Values (UI)
 │── model/                     # Trained Random Forest model (.pkl or .json export)
 │── README.md
