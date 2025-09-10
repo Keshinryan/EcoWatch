@@ -50,8 +50,8 @@ The system also includes an integrated **Berita & Edukasi** section where admins
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/RainfallPredictionApp.git
-   cd RainfallPredictionApp
+   git clone https://github.com/Keshinryan/EcoWatch
+   cd EcoWatch
    ```
 
 2. Open the project in **Android Studio**.
@@ -68,11 +68,8 @@ The system also includes an integrated **Berita & Edukasi** section where admins
 RainfallPredictionApp/
 │── app/
 │   ├── java/com/example/rainfallprediction/
-│   │   ├── activities/        # Activities (Login, Prediction, Admin CRUD, etc.)
 │   │   ├── adapters/          # RecyclerView Adapters
-│   │   ├── models/            # Data models (User, Berita, Edukasi, Prediction)
-│   │   ├── network/           # API or DB helpers
-│   │   └── utils/             # Utility classes
+│   │   └──  fragment/          # Fragment page of the mobile
 │   └── res/                   # Layouts, Drawables, Values (UI)
 │── model/                     # Trained Random Forest model (.pkl or .json export)
 │── README.md
@@ -94,12 +91,6 @@ RainfallPredictionApp/
 ### Berita & Edukasi
 - Admin CRUD interface  
 - User-friendly reader interface  
-
----
-
-## 📸 Screenshots (Optional)
-
-_Add some screenshots of your app UI here (Login, Prediction, Berita, Edukasi)._  
 
 ---
 
